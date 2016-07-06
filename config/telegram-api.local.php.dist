@@ -1,0 +1,12 @@
+<?php
+
+return [
+    'telegram' => [
+        'token' => ''
+    ],
+    'dependencies' => [
+        'factories' => [
+            Telegram\Http\Client::class => Telegram\Container\ClientFactory::class,
+        ],
+    ],
+];
